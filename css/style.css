@@ -75,7 +75,7 @@ footer {
   .media-query-container {
     display: flex;
     flex: 5;
-    flex-direction: row;
+    flex-direction: row-reverse;
 
 footer {
     background-color: #F05F00;
@@ -85,13 +85,9 @@ footer {
   }
 
   aside {
-    order: 1;
     flex: 2;
   }
 
-  .article-container {
-    order: 2;
-  }
 
 }
 }
